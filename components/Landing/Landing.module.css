@@ -1,0 +1,21 @@
+.main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background: #dd3e54;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(133, 70%, 66%, 0.63), hsla(352, 70%, 55%, 0.623));   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(133, 70%, 66%, 0.63), hsla(352, 70%, 55%, 0.623)) ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+
+.title{
+    font-size: 60px;
+
+}

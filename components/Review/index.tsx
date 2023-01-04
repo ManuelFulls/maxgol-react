@@ -12,6 +12,7 @@ const {titulo, descripcion,numero}=props
 
 return(
     <div>
+        
      <h3 className={styles.titulo}>
         <span className={styles.numero}>
             {numero}

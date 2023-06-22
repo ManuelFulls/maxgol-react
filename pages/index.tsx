@@ -8,8 +8,8 @@ const HomePage=()=>{
 return (
 
   <div>
-    <Landing/>
-   
+    
+    
   
     <img className="PHOTO"src="https://http2.mlstatic.com/storage/developers-site-cms-admin/CDV_ML/277814770111-210727-como-vender-productos-de-consumo-masivo-header.jpg" alt="" ></img>
     <Review titulo="Mejores productos"  numero={8} descripcion=" Por la compra de 30 productos, obtiene un cupon el cual tendra u valor cangeable de 10 productos de cualquier tipo.¡APROVECHE!"/>

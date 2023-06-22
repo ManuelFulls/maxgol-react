@@ -1,22 +1,54 @@
 .main{
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
+    
+    
+    height: 30vh;
     background: #dd3e54;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(133, 70%, 66%, 0.63), hsla(352, 70%, 55%, 0.623));   /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(133, 70%, 66%, 0.63), hsla(352, 70%, 55%, 0.623)) ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+   
 
 }
+
+
 
 
 .title{
     font-size: 60px;
 
+}
+
+
+.navbar{
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+
+}
+
+.link{
+   
+    font-size: 20px;
+    color: #2b2bdb;
+    padding: 5px;
+    margin-top: 0;
+    
+
+}
+.title{
+
+    text-align: center;
+    justify-content: center;
+}
+.titles{
+    text-align: center;
+}
+.link:hover{
+    color: rgb(226, 43, 165);
+   
+   
 }
 

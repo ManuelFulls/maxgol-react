@@ -1,0 +1,22 @@
+.container{
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    /* background-color: blue; */
+    border: 1px solid white;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+    box-shadow: 0 0 6px 0 rgba(236, 231, 231, 0.6);
+}
+
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.description{
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: overline;
+}

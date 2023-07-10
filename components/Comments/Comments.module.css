@@ -1,60 +1,56 @@
 .container{
     box-sizing: border-box;
     width: 600px;
-    background-color: aquamarine;
-    height: 150px;
-    border-radius: 50px;
+    /* background-color: aquamarine; */
+    /* background-color: #A5DBDD; */
+    background-color: #4d0686;
+   height: 150px;
+   border-radius: 20px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 20px;
-    
-}
-
-
-
-.imagenport{
-    /* border-radius: 200px; */
-    box-sizing: border-box;
-    padding-top: 10px;
-    /* width: 200px;
-    height: 200px; */
-    /* height: 500px; */
-    /* background-color: rgb(35, 40, 40); */
-    width: 425px;
-    height: 150px;
-    align-items: center;
     position: absolute;
-    left: 180px;
-   background-color: blue;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
 }
+
+
+
+
 .photo{
-   box-sizing: border-box;
+    box-sizing: border-box;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    top: 20px;
+    left: 20px;
+   
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin-top: 10px; */
     height: 100px;
     width: 100px;
     border-radius: 120px;
     border: 4px solid rgb(238, 238, 244);
-    
+    position: absolute;
 }
 
-.box{
-    background-color: black;
-    box-sizing: border-box;
-    padding-top: 10px;
-    height: 150px;
-    width: 150px;
-    /* background-color: black; */
-}
 
 .title{
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
     padding-top: 10px;
-
+    right: 0;
+    top: 0;
+    left: 180px;
+    color: white;
 }
 .description{
-    padding-top: 10px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    left: 180px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    padding-right: 10px;
+    padding-bottom: 20px;
+    top: 80px;
+    color: white;
 }

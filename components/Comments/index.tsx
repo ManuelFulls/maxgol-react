@@ -15,16 +15,11 @@ const Comments =(props:Props)=>{
 return( 
     
         <div className={styles.container}>
-            <div className={styles.imagenport}>
-                <h1 className={styles.title}>{title}</h1>
-                <p className={styles.description}> {description}</p>
-               
-                
-            </div>
-            <div className={styles.box}>
-                <img className={styles.photo} src={url} alt=""></img>
-            </div>
-           
+
+            <img className={styles.photo} src={url} alt=""></img>
+            <h1 className={styles.title}>{title}</h1>
+           <p className={styles.description}>{description}</p>
+
         </div>
     )
 }

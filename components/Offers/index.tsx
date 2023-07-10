@@ -4,12 +4,13 @@ import styles from "./Offers.module.css"
 
 interface Props{
     url:string
-
+    description:string
+    
 
 }
 const Offers =(props:Props)=>{
 
-    const{url}=props
+    const{url,description}=props
 
 
 return( 
@@ -18,6 +19,7 @@ return(
     <div className={styles.galeriaport}>
         <div className={styles.imagenport}>
             <img className={styles.foto} src={url} alt=""></img>
+            <p className={styles.description}> {description}</p>
         </div>
     </div>
     </div>)

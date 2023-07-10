@@ -29,12 +29,13 @@
    
     display: flex;
     gap: 20px;
-    
+    margin-right: 25%;
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: left;
 
 }
+
 
 
 

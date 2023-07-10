@@ -21,11 +21,14 @@
 
 
 .navbar{
+    box-sizing: border-box;
     margin: 0;
     text-align: left;
     padding: 0;
-    display: flex;
+    /* display: flex; */
     gap: 20px;
+    display: block;
+    padding: 10px;
 
 }
 
@@ -33,7 +36,7 @@
    
     font-size: 20px;
     color: #2b2bdb;
-    padding: 5px;
+    padding: 10px;
     margin-top: 0;
     
 
@@ -48,7 +51,7 @@
 }
 .link:hover{
     color: rgb(226, 43, 165);
-   
+    text-decoration: underline;
    
 }
 

@@ -11,7 +11,7 @@ const Review=(props:Props)=>{
 const {titulo, descripcion,numero}=props
 
 return(
-    <div>
+    <div className="container">
         
      <h3 className={styles.titulo}>
         <span className={styles.numero}>

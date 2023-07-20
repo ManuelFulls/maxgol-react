@@ -1,30 +1,24 @@
 //aqui defines las propiedades
-import styles from "./Review.module.css"
+import styles from "./Review.module.css";
 
-interface Props{
-    titulo: string
-    descripcion:string 
-    numero:number 
+interface Props {
+  titulo: string;
+  descripcion: string;
+  numero: number;
 }
 
-const Review=(props:Props)=>{
-const {titulo, descripcion,numero}=props
+const Review = (props: Props) => {
+  const { titulo, descripcion, numero } = props;
 
-return(
+  return (
     <div className="container">
-        
-     <h3 className={styles.titulo}>
-        <span className={styles.numero}>
-            {numero}
-        </span>
-            {titulo}
-        </h3>
-            <p className={styles.descripcion}>
-                {descripcion}
-            </p>
+      <h3 className={styles.titulo}>
+        <span className={styles.numero}>{numero}</span>
+        {titulo}
+      </h3>
+      <p className={styles.descripcion}>{descripcion}</p>
     </div>
+  );
+};
 
-)
-}
-
-export default Review
+export default Review;
